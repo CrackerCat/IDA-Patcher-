@@ -29,8 +29,8 @@ Before running the tool, ensure the following dependencies are installed:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/ida-patcher.git
-cd ida-patcher
+git clone https://github.com/ThatNotEasy/IDA-Patcher
+cd IDA-Patcher
 ```
 
 ### Usage
