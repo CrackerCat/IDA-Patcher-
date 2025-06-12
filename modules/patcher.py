@@ -12,10 +12,7 @@ class IDA:
         self.email = None
         self.name = None
         self.log = logger
-        self.addons = [
-            "HEXX86", "HEXX64", "HEXARM", "HEXARM64", "HEXMIPS", "HEXMIPS64",
-            "HEXPPC", "HEXPPC64", "HEXRV64", "HEXARC", "HEXARC64"
-        ]
+        self.addons = ["HEXX86", "HEXX64", "HEXARM", "HEXARM64", "HEXMIPS", "HEXMIPS64", "HEXPPC", "HEXPPC64", "HEXRV64", "HEXARC", "HEXARC64"] # "HEXCX86", "HEXCX64", "HEXCARM", "HEXCARM64", "HEXCMIPS", "HEXCMIPS64", "HEXCPPC", "HEXCPPC64", "HEXCRV", "HEXCRV64", "HEXCARC", "HEXCARC64",
         self.patch_origin = bytes.fromhex("EDFD425CF978")
         self.patched = bytes.fromhex("EDFD42CBF978")
         self.license_filename = "idapro.hexlic"
@@ -60,10 +57,25 @@ class IDA:
                         "product_version": "9.1",
                         "seats": 1,
                         "start_date": self.start_date,
-                        "end_date": self.end_date,
+                        "end_date": self.end_date, # # This can't be more than 10 years!
                         "issued_on": self.start_date,
                         "owner": "HexRays",
-                        "add_ons": [],
+                        "add_ons": [
+                            # {
+                            #     "id": "48-1337-DEAD-01",
+                            #     "code": "HEXX86L",
+                            #     "owner": "48-0000-0000-00",
+                            #     "start_date": "2025-06-13 00:00:00",
+                            #     "end_date": "2035-12-31 23:59:59",
+                            # },
+                            # {
+                            #     "id": "48-1337-DEAD-02",
+                            #     "code": "HEXX64L",
+                            #     "owner": "48-0000-0000-00",
+                            #     "start_date": "2025-06-13 00:00:00",
+                            #     "end_date": "2035-12-31 23:59:59",
+                            # },
+                        ],
                         "features": [],
                     }
                 ],
