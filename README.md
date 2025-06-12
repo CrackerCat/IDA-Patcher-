@@ -58,11 +58,8 @@ Follow the on-screen prompts:
   - 10-year validity
   - All processor modules included
   - RSA-signed for authenticity
-
-### Files in this repository
-
-- `main.py` - Main execution script that handles the overall flow of the patching and license generation.
-- `patch.py` - Core patching logic and the mechanism that generates the license.
+ 
+- ![{AB95A9B8-E0F7-45BE-A254-38EEAE780CF3}](https://github.com/user-attachments/assets/b9860e13-16ab-4aef-a062-9880a72289c5)
 
 ## Disclaimer
 

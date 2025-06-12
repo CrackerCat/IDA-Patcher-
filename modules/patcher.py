@@ -50,7 +50,7 @@ class IDA:
                     {
                         "id": "48-2137-ACAB-99", # do not generate random license id
                         "edition_id": "ida-pro",
-                        "description": "license",
+                        "description": "Patched By Pari Malam",
                         "license_type": "named",
                         "product": "IDA",
                         "product_id": "IDAPRO",
